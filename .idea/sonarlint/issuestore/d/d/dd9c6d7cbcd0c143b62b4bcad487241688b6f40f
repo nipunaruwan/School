@@ -1,0 +1,75 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(Æ¯üá
+j	java:S116"URename this field "AddContext" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¶Âš
+e	java:S116"PRename this field "LName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿²çú
+k	java:S116"QRename this field "CityID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑéÉ‚şÿÿÿÿ
+j	java:S116 "PRename this field "FName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äĞŒúÿÿÿÿ
+l	java:S116!"RRename this field "EmailID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö•Äªıÿÿÿÿ
+k	java:S116""QRename this field "TownID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷“Ó€ùÿÿÿÿ
+e	java:S116#"PRename this field "TpNo1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™º±â
+i	java:S116$"ORename this field "NoID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‚„óúÿÿÿÿ
+j	java:S116%"PRename this field "TpNo2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‹ô»ıÿÿÿÿ
+d	java:S116'"ORename this field "Type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¹˜
+c	java:S116("NRename this field "Dob" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş•£
+h	java:S116-"NRename this field "Gen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Èœêùÿÿÿÿ
+p	java:S1161"VRename this field "TownPattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıùš÷ûÿÿÿÿ
+p	java:S1162"VRename this field "CityPattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ€çåúÿÿÿÿ
+j	java:S1163"VRename this field "NamePattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¿\
+j	java:S1165"URename this field "NICPattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ë’¡
+t	java:S1169"ZRename this field "PasswordPattern" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ïéÍıÿÿÿÿ
+˜
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§åıè
+˜
+java:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼»Í´
+˜
+java:S1186°"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ôé¹
+n
+java:S1845Q"SRename method "btnSave" to prevent any misunderstanding/clash with field "btnSave".(ûæõœøÿÿÿÿ
+V	java:S125."<This block of commented-out lines of code should be removed.(Ä ‹ºøÿÿÿÿ
+Q	java:S1258"<This block of commented-out lines of code should be removed.(ôî—ø
+z
+java:S59969"_Remove or replace this boundary that will never match because it appears after mandatory input.(²ïéÍıÿÿÿÿ
+V	java:S125h"<This block of commented-out lines of code should be removed.(ÀÀõ‡úÿÿÿÿ
+V	java:S125|"<This block of commented-out lines of code should be removed.(ò¡ûøÿÿÿÿ
+R	java:S125„"<This block of commented-out lines of code should be removed.(ë¨¡†
+C
+java:S1172",Remove this unused method parameter "users".(§åıè
+R	java:S125™"<This block of commented-out lines of code should be removed.(Çßµ¿
+?	java:S108Õ")Either remove or fill this block of code.(Û˜›¾
+l
+java:S1104"VMake AddContext a static final constant or non-public and provide accessors if needed.(‚¶Âš
+e
+java:S1104"OMake uid a static final constant or non-public and provide accessors if needed.(¼­Ä¤
+g
+java:S1104"QMake LName a static final constant or non-public and provide accessors if needed.(¿²çú
+m
+java:S1104"RMake CityID a static final constant or non-public and provide accessors if needed.(ÑéÉ‚şÿÿÿÿ
+l
+java:S1104 "QMake FName a static final constant or non-public and provide accessors if needed.(äĞŒúÿÿÿÿ
+n
+java:S1104!"SMake EmailID a static final constant or non-public and provide accessors if needed.(Ö•Äªıÿÿÿÿ
+m
+java:S1104""RMake TownID a static final constant or non-public and provide accessors if needed.(÷“Ó€ùÿÿÿÿ
+g
+java:S1104#"QMake TpNo1 a static final constant or non-public and provide accessors if needed.(™º±â
+k
+java:S1104$"PMake NoID a static final constant or non-public and provide accessors if needed.(ÿ‚„óúÿÿÿÿ
+l
+java:S1104%"QMake TpNo2 a static final constant or non-public and provide accessors if needed.(÷‹ô»ıÿÿÿÿ
+k
+java:S1104&"PMake male a static final constant or non-public and provide accessors if needed.(éöÚÍüÿÿÿÿ
+f
+java:S1104'"PMake Type a static final constant or non-public and provide accessors if needed.(˜¹˜
+e
+java:S1104("OMake Dob a static final constant or non-public and provide accessors if needed.(Ş•£
+d
+java:S1104)"OMake nic a static final constant or non-public and provide accessors if needed.(¡ÒÁ|
+o
+java:S1104*"TMake password a static final constant or non-public and provide accessors if needed.(Êº©ÿÿÿÿÿÿ
+g
+java:S1104+"QMake grade a static final constant or non-public and provide accessors if needed.(Êı“ç
+n
+java:S1104,"SMake btnSave a static final constant or non-public and provide accessors if needed.(Æ ‡’úÿÿÿÿ
+j
+java:S1104-"OMake Gen a static final constant or non-public and provide accessors if needed.(¢Èœêùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î

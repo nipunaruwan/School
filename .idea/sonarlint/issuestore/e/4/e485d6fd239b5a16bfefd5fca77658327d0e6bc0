@@ -1,0 +1,12 @@
+
+n	java:S116"TRename this field "StudentID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¼ä¬ıÿÿÿÿ
+k	java:S116"VRename this field "StudentName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú‰ˆ¬
+g	java:S116"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü©
+e	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áï»‚
+n	java:S116"TRename this field "ContactNo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¼Îúÿÿÿÿ
+d	java:S116	"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑùÛ
+h	java:S116
+"SRename this field "CourseID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¿ò
+i	java:S116"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÛÑ¬ùÿÿÿÿ
+[	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(–ªíƒıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“

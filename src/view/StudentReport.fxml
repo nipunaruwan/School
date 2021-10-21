@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="649.0" prefWidth="729.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudentReportController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="274.0" layoutY="16.0" prefHeight="45.0" prefWidth="246.0" text="Student Report">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="126.0" prefHeight="166.0" prefWidth="306.0" style="-fx-border-color: black;" />
+      <Label layoutX="69.0" layoutY="383.0" prefHeight="174.0" prefWidth="294.0" style="-fx-border-color: black;" />
+      <Label layoutX="405.0" layoutY="126.0" prefHeight="166.0" prefWidth="306.0" style="-fx-border-color: black;" />
+      <Label layoutX="405.0" layoutY="383.0" prefHeight="174.0" prefWidth="294.0" style="-fx-border-color: black;" />
+      <Label layoutX="56.0" layoutY="126.0" prefHeight="21.0" prefWidth="66.0" text="User">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="444.0" layoutY="126.0" prefHeight="21.0" prefWidth="66.0" text="Library">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="433.0" prefHeight="21.0" prefWidth="66.0" text="Grade">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="456.0" layoutY="431.0" prefHeight="21.0" prefWidth="79.0" text="Time table">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="62.0" layoutY="155.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="100.0" text="Student" />
+      <RadioButton layoutX="62.0" layoutY="181.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="93.0" text="Teacher" />
+      <RadioButton layoutX="61.0" layoutY="207.0" mnemonicParsing="false" text="Admin" />
+      <ComboBox fx:id="reportID" layoutX="76.0" layoutY="248.0" prefWidth="150.0" promptText="student" />
+      <Button layoutX="243.0" layoutY="244.0" mnemonicParsing="false" onAction="#btngetreport" prefHeight="32.0" prefWidth="93.0" text="Get report" />
+      <ComboBox layoutX="447.0" layoutY="183.0" prefWidth="150.0" promptText="Type" />
+      <ComboBox layoutX="448.0" layoutY="245.0" prefWidth="150.0" promptText="Status" />
+      <Button layoutX="611.0" layoutY="245.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="93.0" text="Get report" />
+      <ComboBox layoutX="85.0" layoutY="503.0" prefWidth="150.0" promptText="Student" />
+      <Button layoutX="254.0" layoutY="503.0" mnemonicParsing="false" text="Get Report" />
+      <Button layoutX="451.0" layoutY="498.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="214.0" text="Get report" />
+   </children>
+</AnchorPane>

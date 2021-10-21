@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LibraryContext" prefHeight="649.0" prefWidth="729.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LibraryFormController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="4.0" text="Library">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblBooks" layoutX="9.0" layoutY="320.0" prefHeight="323.0" prefWidth="716.0">
+        <columns>
+          <TableColumn fx:id="colbookIDC" prefWidth="128.0" text="BookID" />
+          <TableColumn fx:id="colBookName" prefWidth="149.0" text="Name" />
+            <TableColumn fx:id="colDate" minWidth="0.0" prefWidth="143.0" text="Reg-Date" />
+            <TableColumn fx:id="colStatus" minWidth="0.0" prefWidth="140.0" text="Status" />
+            <TableColumn fx:id="colauther" minWidth="0.0" prefWidth="155.0" text="auther" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAdd" layoutX="596.0" layoutY="51.0" mnemonicParsing="false" onAction="#addBookTypeOnAction" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: #ed4545;" text="Add new type">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSave" layoutX="32.0" layoutY="257.0" mnemonicParsing="false" onAction="#bookSaveOnAction" prefHeight="45.0" prefWidth="130.0" style="-fx-background-color: #073fba;" text="Save" textFill="#ebebeb">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="507.0" layoutY="254.0" mnemonicParsing="false" onAction="#btnlibcancel" prefHeight="45.0" prefWidth="130.0" text="Cancel">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtBookName" layoutX="248.0" layoutY="196.0" onKeyPressed="#Libkeyrelease" prefHeight="31.0" prefWidth="182.0" promptText="Book Name" />
+      <TextField fx:id="txtAutorID" layoutX="21.0" layoutY="198.0" onKeyPressed="#Libkeyrelease" prefHeight="31.0" prefWidth="182.0" promptText="Autor" />
+      <Button layoutX="168.0" layoutY="256.0" mnemonicParsing="false" onAction="#btnlibadd" prefHeight="45.0" prefWidth="130.0" style="-fx-background-color: #ffe95c;" text="Update">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="303.0" layoutY="255.0" mnemonicParsing="false" onAction="#btnlibadd" prefHeight="45.0" prefWidth="130.0" style="-fx-background-color: #ed4545;" text="Delete">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbldate" layoutX="21.0" layoutY="66.0" prefHeight="31.0" prefWidth="239.0" text="Date" />
+      <TextField fx:id="txtBookTypeID" layoutX="191.0" layoutY="38.0" onKeyPressed="#Libkeyrelease" promptText="BookType ID" />
+      <ComboBox fx:id="booktypeID" layoutX="223.0" layoutY="82.0" prefHeight="31.0" prefWidth="160.0" />
+      <TextField fx:id="txtBookTypeName" layoutX="393.0" layoutY="80.0" onKeyPressed="#Libkeyrelease" promptText=" Type Name" />
+      <TextField fx:id="txtStatus" layoutX="393.0" layoutY="38.0" onKeyPressed="#Libkeyrelease" promptText="Status" />
+      <TextField fx:id="txtBookID" layoutX="21.0" layoutY="138.0" onKeyPressed="#Libkeyrelease" prefHeight="36.0" prefWidth="182.0" promptText="Book ID" />
+      <TextField fx:id="txtBookStatus" layoutX="462.0" layoutY="196.0" onKeyPressed="#Libkeyrelease" prefHeight="31.0" prefWidth="182.0" promptText="Status" />
+   </children>
+</AnchorPane>
